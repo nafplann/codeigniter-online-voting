@@ -2,7 +2,9 @@
     <div class="container">
         <div class="row">
             <div class="col s12 m4">
-                <span class="grey-text">© Copyright <?php echo date('Y'); ?> KCDEV</span>
+                <span class="grey-text">© Copyright <?php echo date('Y'); ?> 
+                    <a href="//kcdev.id">KCDEV</a>
+                </span>
             </div>
             <div class="col s12 m4">
                 <span class="grey-text">Made with ❤️in Makassar, Indonesia</span>

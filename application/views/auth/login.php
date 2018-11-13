@@ -79,7 +79,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col s12 center-align">
-                        <span class="grey-text">© Copyright <?php echo date('Y'); ?> KCDEV <br> Made with ❤️in Makassar, Indonesia</span>
+                        <span class="grey-text">&copy; Copyright <?php echo date('Y'); ?> <a href="//kcdev.id">KCDEV</a> <br> Made with ❤️in Makassar, Indonesia</span>
                     </div>
                 </div>
             </div>
