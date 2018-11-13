@@ -1,0 +1,13 @@
+{
+    "name": "nafplann/application",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abdul Manaaf",
+            "email": "nafplann@gmail.com"
+        }
+    ],
+    "require": {
+        "jenssegers/blade": "^1.1"
+    }
+}
