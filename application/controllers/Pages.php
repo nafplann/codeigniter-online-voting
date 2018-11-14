@@ -2,8 +2,8 @@
 
 class Pages extends CI_Controller 
 {
-	public function index()
+	public function home()
 	{
-		view('pages.home', ['test' => ['lol', 'taradids']]);
+		view('pages.home');
 	}
 }
