@@ -1,0 +1,58 @@
+header .btn {
+    text-transform: initial !important;
+    border-radius: 20px;
+}
+
+#section-main {
+    background: #ff512f;
+    background: -webkit-linear-gradient(to right, #ff512f, #f09819);
+    background: linear-gradient(to right, #ff512f, #f09819);
+    min-height: 350px;
+}
+
+#section-main {
+    display: flex;
+    align-items: center;
+}
+
+.section .title {
+    margin-bottom: 2px;
+}
+
+.section .subtitle {
+    margin: 5px 0;
+}
+
+.card .card-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    min-height: 270px;
+
+}
+
+.card .card-image img {
+    margin: auto;
+    max-width: 145px;
+}
+
+.btn-coblos {
+    width: 100%;
+}
+
+.btn-coblos i.left {
+    margin-right: initial;
+}
+
+.img-chart {
+    max-width: 330px;
+}
+
+.coblos-feature {
+    padding: 30px 0;
+}
+
+.register-now {
+    margin: 2rem 0 1rem 0;
+}

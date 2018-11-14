@@ -1,0 +1,22 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 100px);
+}
+
+.row, .card {
+    margin: 0;
+}
+
+form label.active {
+    font-weight: bold;
+}
+
+footer.page-footer {
+    height: 100px;
+}
+
+footer.page-footer .row .col:last-of-type {
+    justify-content: center;
+}

@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col s12 m4">
-                <span class="grey-text">© Copyright <?php echo date('Y'); ?> 
+                <span class="grey-text">&copy; Copyright {{ date('Y') }} 
                     <a href="//kcdev.id">KCDEV</a>
                 </span>
             </div>

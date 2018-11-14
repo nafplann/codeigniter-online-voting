@@ -1,13 +1,11 @@
 @extends('layouts.frontend.master')
 
+@section('title', 'Home')
+
 @section('style')
 @endsection
 
-@section('script')
-@endsection
-
 @section('content')
-    
     <section class="section z-depth-1" id="section-main">
         <div class="row container">
             <div class="col s12 l10">
@@ -18,15 +16,15 @@
                 <h5 class="white-text subtitle">Ayoo buat voting dan ajak semua teman untuk memilih.</h5>
 
                 <br>
-                <a href="{{ base_url('/login') }}" class="waves-effect waves-light btn grey darken-4">Masuk</a>                
-                <a class="waves-effect waves-light btn grey darken-4">Daftar Sekarang</a>                
+                <a href="{{ base_url('/login') }}" class="waves-effect waves-light btn grey darken-4">Masuk</a>
+                <a href="{{ base_url('/register') }}"class="waves-effect waves-light btn grey darken-4">Daftar Sekarang</a>                
             </div>
         </div>
     </section>
 
     <section class="section">
         <div class="container">
-            <h4 class="center-align">Pemilu 2018</h4>
+            <h4 class="center-align">Pemilu 2019</h4>
             <div class="row">
                 <div class="col s12 m6 l3">
                     <div class="card hoverable">
@@ -34,7 +32,7 @@
                             <img src="{{ base_url('uploads/avatars/zebra.png') }}">
                         </div>
                         <div class="card-content center-align">
-                            <h5>Rooster</h5>
+                            <h5>Zebra</h5>
                             <p>I am a very simple card. I am good at containing small bits of information.
                             I am convenient because I require little markup to use effectively.</p>
                         </div>
@@ -138,11 +136,16 @@
                     <div class="card hoverable register-now">
                         <div class="card-content white-text center-align">
                             <h5 class="black-text">Buat Polling Hari Ini Juga!</h5><br>
-                            <button class="btn grey darken-4">Daftar Sekarang</button>
+                            <a href="{{ base_url('register') }}">
+                                <button class="btn grey darken-4">Daftar Sekarang</button>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+@endsection
+
+@section('script')
 @endsection
