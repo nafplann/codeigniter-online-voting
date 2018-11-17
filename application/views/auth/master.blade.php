@@ -10,9 +10,8 @@
 
         <!-- Compiled and minified CSS -->
         <link href="https://fonts.googleapis.com/css?family=Material+Icons|Nunito" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
         <link rel="stylesheet" href="{{ base_url('assets/css/app.css') }}">
         <link rel="stylesheet" href="{{ base_url('assets/css/auth.css') }}">
         @yield('style')
@@ -48,7 +47,7 @@
 
         <!-- Compiled and minified JavaScript -->
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
         @yield('script')
     </body>
 </html>
