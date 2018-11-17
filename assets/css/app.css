@@ -556,3 +556,11 @@ a.btn, button.btn {
     min-height: 45px;
     line-height: 45px;
 }
+
+#main-preloader {
+    margin: 0;
+}
+
+.hidden {
+    display: none !important;
+}

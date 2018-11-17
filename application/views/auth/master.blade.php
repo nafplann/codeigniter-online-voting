@@ -16,9 +16,11 @@
         <link rel="stylesheet" href="{{ base_url('assets/css/auth.css') }}">
         @yield('style')
     </head>
-    <body>
-
-        <main class="blue-grey lighten-5">
+    <body class="blue-grey lighten-5">
+        <div id="main-preloader" class="progress hidden">
+            <div class="indeterminate"></div>
+        </div>
+        <main>
             <div class="container">
                 <div class="row">
                     <div class="col s12 m6 offset-m3">

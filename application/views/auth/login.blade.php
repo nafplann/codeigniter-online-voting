@@ -17,6 +17,12 @@
                     <input name="password" id="password" type="password" class="validate">
                     <label for="password">Password</label>
                 </div>
+                <div class="col s12 left-align">
+                    <label>
+                        <input type="checkbox" class="filled-in" name="remember_me" />
+                        <span>Remember me</span>
+                    </label>
+                </div>
                 <div class="input-field col s12">
                     <button type="button" class="btn waves-effect waves-light submit full orange darken-4">Login</button>
                 </div>

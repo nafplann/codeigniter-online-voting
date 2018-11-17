@@ -19,7 +19,7 @@
     </head>
     <body>
         @include('layouts.frontend.header')
-        
+       
         <main>
             @yield('content')
         </main>
