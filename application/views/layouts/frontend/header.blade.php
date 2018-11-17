@@ -1,6 +1,6 @@
 <header class="navbar-fixed">
     <nav class="z-depth-3 white">
-        <div id="main-preloader" class="progress">
+        <div id="main-preloader" class="progress hidden">
             <div class="indeterminate"></div>
         </div>
         <div class="nav-wrapper container">
